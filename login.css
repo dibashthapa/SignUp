@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+}
+.background {
+  width:100%;
+  height:100vh;
+    background-color:black;
+
+opacity:0.6;
+}
+.header h1{
+   text-align:center;
+   font-weight:bold;
+   color:white;
+}
+.container{
+    margin-left:400px;
+    margin-top:100px;
+}
+.container input {
+    height:40px;
+    width:300px;
+    margin-top:20px;
+text-align:center;
+}
+.container input:focus {
+border:2px solid blue;
+outline:none;
+}
+ ::placeholder {
+text-align:center;
+}
+button {
+    height:40px;
+    width:200px;
+    margin-top:30px;
+ 
+    background-color:green;
+}
